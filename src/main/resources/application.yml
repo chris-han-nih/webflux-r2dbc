@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  flyway:
+    baseline-on-migrate: true
+    enabled: true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/r2dbc
+    user: root
+    password: 1q2w3e4r
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/r2dbc
+    username: root
+    password: 1q2w3e4r
